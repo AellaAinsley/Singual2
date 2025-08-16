@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Demonstrates CSS layout" />
+  <meta name="keywords" content="HTML5, CSS layout"/>
+  <meta name="author" content="Aella Ainsley"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Singual</title>
+</head>
+
+<body>
+    <section class="nav" style="height:55px;">
+        <nav>
+            <a href="home.html"><img src="png/singual 2.0.png" alt="logo" href="home.html" id="logo"></a>
+            <a class="main" href="english.html">English</a>
+            <a class="selected" href="français.html">French</a>
+            <a class="main" href="chinese.html">Chinese</a>
+        </nav>
+    </section>
+    
+    <section class="page">
+        <div class="album">
+            <br><hr>
+            <header onclick="extend('les_failles')"><h1>les failles</h1></header>
+            <p class="credit">par Pomme</p>
+            <br>
+            <ol class="songs_list" id="les_failles" class="hid">
+                <li><a href="français/anxiété.html">anxiété</a></li>
+                <li><a href="français/anxiété.html">je sais pas danser</a></li>
+                <li><a href="français/anxiété.html">grandiose</a></li>
+                <li><a href="français/anxiété.html">les séquoias</a></li>
+                <li><a href="français/anxiété.html">les oiseaux</a></li>
+                <li><a href="français/anxiété.html">pour quoi le mort te fait peur</a></li>
+                <li><a href="français/anxiété.html">la lumière</a></li>
+                <li><a href="français/anxiété.html">soleil, soleil</a></li>
+                <li><a href="français/anxiété.html">saphir</a></li>
+                <li><a href="français/anxiété.html">une minute</a></li>
+                <li><a class="null">chapelle</a></li>
+            </ol>
+        </div>
+        
+        <div class="album">
+            <hr>
+            <header onclick="extend('impossible_a_prononcer')"><h1>Impossible à Prononcer</h1></header>
+            <p class="credit">par Pomplamoose</p>
+            <br>
+            <ol class="songs_list" id="impossible_a_prononcer" class="hid">
+                <li><a href="français/La chanson de Maxence.html">Douce France</a></li>
+                <li><a href="français/La chanson de Maxence.html">Les copains d'abord</a></li>
+                <li><a href="français/La chanson de Maxence.html">Que reste-t-il de nos amours</a></li>
+                <li><a href="français/La chanson de Maxence.html">Vesoul</a></li>
+                <li><a href="français/Laisse béton.html">Laisse béton</a></li>
+                <li><a href="français/La chanson de Maxence.html">La chanson de Maxence</a></li>
+                <li><a href="français/La chanson de Maxence.html">Assedic</a></li>
+                <li><a href="français/La chanson de Maxence.html">Chanson sur ma drôle de vie</a></li>
+                <li><a href="français/La chanson de Maxence.html">Comment te dire adieu</a></li>
+            </ol>
+        </div>
+
+        <div class="album">
+            <hr>
+            <header onclick="extend('en_francais')"><h1>En Français</h1></header>
+            <p class="credit">par Pomplamoose</p>
+            <br>
+            <ol class="songs_list" id="en_francais" class="hid">
+                <li><a href="français/La chanson de Maxence.html">Douce France</a></li>
+                <li><a href="français/La chanson de Maxence.html">Les copains d'abord</a></li>
+                <li><a href="français/La chanson de Maxence.html">Que reste-t-il de nos amours</a></li>
+                <li><a href="français/La chanson de Maxence.html">Vesoul</a></li>
+                <li><a href="français/Laisse béton.html">Laisse béton</a></li>
+                <li><a href="français/La chanson de Maxence.html">La chanson de Maxence</a></li>
+                <li><a href="français/La chanson de Maxence.html">Assedic</a></li>
+                <li><a href="français/La chanson de Maxence.html">Chanson sur ma drôle de vie</a></li>
+                <li><a href="français/La chanson de Maxence.html">Comment te dire adieu</a></li>
+            </ol>
+        </div>
+
+        <div class="album">
+            <hr>
+            <header><h1>nomme de album?</h1></header>
+            <p class="credit">par qui?</p>
+            <br>
+            <ol class="songs_list">
+                <li><a class="null">nomme de chanson</a></li>
+                <li><a class="null">nomme de chanson</a></li>
+            </ol>
+        </div>
+
+        <div class="album">
+            <hr>
+            <header onclick="extend('des_autres')"><h1>"des autres"</h1></header>
+            <br>
+            <ol class="songs_list" id="des_autres" class="hid">
+                <li><a class="null">les feuilles mortes</a></li>
+                <li><a class="null">à cabo</a></li>
+                <li><a class="null">je te laisserai des mots</a></li>
+                <li><a class="null">Carrousel</a></li>
+                <li><a href="français/Ma Meilleur Ennemie.html">Ma Meilleur Ennemie</a></li>
+                <li><a class="null">nomme de chanson</a></li>
+            </ol>
+        </div>
+
+        <br><hr>
+        <div><header><h1><a href="français/musicals.html">des musicals</a></h1></header></div>
+    </section>
+    <script src="../script.js"></script>
+</body>
+</html>
